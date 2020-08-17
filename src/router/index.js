@@ -1,6 +1,9 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Blog from '../components'
+import RecipeList from '../components'
+import RecipeSingle from '../components'
+import RecipeForm from '../components'
 
 Vue.use(Router)
 
