@@ -21,19 +21,17 @@ export default new Router({
     name: 'post',
     props: true,
     component: Blog
-  },
-          {
+  }, {
     path: '/recipes',
     name: 'recipes',
     component: RecipeList
-  }, 
-        {
-    path: '/by/:author',
-    name: 'author',
-    props: true,
-    component: Recipe
   }, {
-    path: '/read/:recipe',
+    path: '/edit/:recipe',
+    name: 'recipe',
+    props: true,
+    component: RecipeForm
+  }, {
+    path: '/recipes/:recipe',
     name: 'recipe',
     props: true,
     component: RecipeSingle
