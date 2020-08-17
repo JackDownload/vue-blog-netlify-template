@@ -1,2 +1,1 @@
-export { default } from './Blog' 
-export { default } from './RecipeList'
+export { default } from './Blog'
